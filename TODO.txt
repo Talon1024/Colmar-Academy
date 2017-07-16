@@ -1,0 +1,26 @@
+TO DO:
+- HTML code and images
+-- Header
+-- Jumbotron
+-- Main section (it doesn't hurt to keep practicing, orientation, campus, guest lecture)
+-- Start learning + courses
+-- Thesis exhibit
+-- Footer + copyright
+- CSS code for desktop (not tablet or mobile)
+-- Header
+-- Jumbotron
+-- Main section (it doesn't hurt to keep practicing, orientation, campus, guest lecture)
+-- Start learning + courses
+-- Thesis exhibit
+-- Footer + copyright
+- Design
+-- Choose colours
+-- Choose fonts
+- Responsive CSS code for tablets
+- Responsive CSS code for mobiles
+-- Header
+-- Jumbotron
+-- Main section (it doesn't hurt to keep practicing, orientation, campus, guest lecture)
+-- Start learning + courses
+-- Thesis exhibit
+-- Footer + copyright
