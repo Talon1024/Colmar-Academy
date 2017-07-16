@@ -1,5 +1,5 @@
 TO DO:
-- HTML code and images
+- HTML code for desktop
 -- Header
 -- Jumbotron
 -- Main section (it doesn't hurt to keep practicing, orientation, campus, guest lecture)
@@ -16,6 +16,8 @@ TO DO:
 - Design
 -- Choose colours
 -- Choose fonts
+- HTML code for tablets and mobiles
+- Tweak desktop CSS - Hide tablet/mobile stuff
 - Responsive CSS code for tablets
 - Responsive CSS code for mobiles
 -- Header
