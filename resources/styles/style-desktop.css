@@ -8,6 +8,17 @@ html {
   display: flex;
 }
 
+body {
+  font-family: sans-serif;
+}
+
+.button {
+  background-color: #808080;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0;
+}
+
 /* ========== Main header ========== */
 #mainheader {
   display: flex;
@@ -43,4 +54,42 @@ html {
 #mainmainsection {
   /* Account for fixed header */
   padding-top: 64px;
+}
+
+.jumbotron {
+  background-color: #eee;
+}
+
+.jumbo-feature {
+  display: flex;
+  padding: 32px 24px;
+  align-items: center;
+}
+
+.jumbo-img {
+  width: 60%;
+  margin-right: 40px;
+  flex-shrink: 0;
+}
+
+.jumbo-img img {
+  width: 100%;
+  height: auto;
+}
+
+.headline {
+  font-size: 3rem;
+}
+
+.jumbo-content {
+  padding-right: 4rem;
+}
+
+.jumbo-content h1 {
+  margin: 2rem 0;
+}
+
+.jumbo-content h2 {
+  font-size: 1.5rem;
+  margin: 2rem 0;
 }
