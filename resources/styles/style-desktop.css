@@ -1,0 +1,46 @@
+html {
+  font-size: 16px;
+}
+
+/* ========== Global ========== */
+
+.flexlist {
+  display: flex;
+}
+
+/* ========== Main header ========== */
+#mainheader {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFF;
+  height: 64px;
+}
+
+#mainheader #logo-section {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 1.5rem;
+}
+
+#colmar-title {
+  font-weight: bold;
+}
+
+#mainheader #action-section {
+  display: flex;
+  align-items: center;
+}
+
+#mainheader li {
+  padding: 0 16px;
+}
+
+/* ========== Main section ========== */
+#mainmainsection {
+  /* Account for fixed header */
+  padding-top: 64px;
+}
