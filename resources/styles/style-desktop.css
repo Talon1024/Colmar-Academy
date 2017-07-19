@@ -48,10 +48,14 @@ a {
 }
 
 #mainheader #logo-section {
+  flex-grow: 1;
+}
+
+#mainheader #logo-section > a {
   display: flex;
   align-items: center;
-  flex-grow: 1;
   padding-left: 1.5rem;
+  height: 100%;
 }
 
 #colmar-title {
@@ -148,6 +152,7 @@ a {
   align-items: center;
   padding: 16px;
   border-bottom: 1px solid #c0c0c0;
+  transition: 200ms background-color linear;
 }
 
 .info-feature:first-child {
@@ -161,6 +166,10 @@ a {
 .info-feature .fleximg {
   width: 35%;
   flex-shrink: 0;
+}
+
+.info-feature:hover {
+  background-color: #c0c0c0;
 }
 
 .feature-content {
