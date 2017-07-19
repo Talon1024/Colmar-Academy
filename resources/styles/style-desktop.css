@@ -8,6 +8,14 @@ html {
   display: flex;
 }
 
+.fleximg {
+  font-size: 0; /* Mitigate whitespace */
+}
+
+.fleximg > img {
+  width: 100%;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -20,7 +28,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #419bea;
   text-decoration: none;
 }
 
@@ -57,6 +65,10 @@ a {
 
 #mainheader li {
   padding: 0 16px;
+}
+
+#mainheader a {
+  color: inherit;
 }
 
 /* ========== Main section - Jumbotron ========== */
@@ -133,21 +145,37 @@ a {
 
 .info-feature {
   display: flex;
-  padding: 24px;
+  align-items: center;
+  padding: 16px;
   border-bottom: 1px solid #c0c0c0;
 }
 
 .info-feature:first-child {
   padding-top: 0;
 }
+
 .info-feature:last-child {
   border-bottom: 0 none #000;
 }
 
 .info-feature .fleximg {
   width: 35%;
-  font-size: 0; /* Mitigate whitespace */
+  flex-shrink: 0;
 }
-.info-feature .fleximg > img {
-  width: 100%;
+
+.feature-content {
+  margin: 0 16px;
+}
+
+.feature-content h3 {
+  font-size: 1.5rem;
+}
+
+.feature-content > * {
+  margin: 8px 0;
+}
+
+.feature-content a {
+  display: block;
+  margin-top: 16px;
 }
