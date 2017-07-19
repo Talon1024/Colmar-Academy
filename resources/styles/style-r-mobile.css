@@ -5,4 +5,8 @@
   .mobile {
     display: block;
   }
+
+  .info-feature {
+    display: block;
+  }
 }
