@@ -144,7 +144,7 @@ a {
 }
 
 .info-col.info-features {
-  padding-top: 40px;
+  padding-top: 16px;
 }
 
 .info-feature {
@@ -153,10 +153,6 @@ a {
   padding: 16px;
   border-bottom: 1px solid #c0c0c0;
   transition: 200ms background-color linear;
-}
-
-.info-feature:first-child {
-  padding-top: 0;
 }
 
 .info-feature:last-child {
@@ -187,4 +183,27 @@ a {
 .feature-content a {
   display: block;
   margin-top: 16px;
+}
+
+/* ========== Main section - start learning ========== */
+#startlearning {
+  background-color: #c0c0c0;
+}
+
+#startlearning h1 {
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+#startlearning .courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 10%;
+  padding-bottom: 32px;
+}
+
+#startlearning .course {
+  width: 30%;
 }
