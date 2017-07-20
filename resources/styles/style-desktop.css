@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
 .mobile {
   display: none;
 }
@@ -206,4 +210,15 @@ a {
 
 #startlearning .course {
   width: 30%;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px #000;
+  margin: 16px;
+}
+
+.course .course-content {
+  padding: 16px;
+}
+
+.course-content>h3, .course-content>p {
+  margin: 10px 0;
 }
