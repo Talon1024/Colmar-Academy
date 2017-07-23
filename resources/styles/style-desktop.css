@@ -241,8 +241,27 @@ h3 {
   border: 0 none #000;
 }
 
+#thesisexhibit .info-highlight > h2 {
+  font-size: 2rem;
+  margin: 24px 0;
+}
+
+#thesisexhibit .info-highlight > p {
+  margin-bottom: 32px;
+}
+
 /* ========== Footer ========== */
 
 #mainfooter {
   border-top: 1px solid #c0c0c0;
+  display: flex;
+  padding: 24px;
+}
+
+#mainfooter .copyright {
+  flex-grow: 1;
+}
+
+.policies li {
+  padding: 0 8px;
 }
