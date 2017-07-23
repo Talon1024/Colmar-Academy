@@ -12,7 +12,7 @@ html {
   font-size: 0; /* Mitigate whitespace */
 }
 
-.fleximg > img {
+.fleximg > img, .fleximg > video {
   width: 100%;
 }
 
@@ -30,6 +30,10 @@ body {
 a {
   color: #419bea;
   text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 h3 {
@@ -105,10 +109,6 @@ h3 {
 .jumbo-img img {
   width: 100%;
   height: auto;
-}
-
-.headline {
-  font-size: 3rem;
 }
 
 .jumbo-content {
@@ -195,7 +195,6 @@ h3 {
 }
 
 #startlearning h1 {
-  font-size: 3rem;
   padding: 2rem;
   text-align: center;
 }
@@ -222,4 +221,9 @@ h3 {
 .course-content>h3, .course-content>p {
   margin: 10px 0;
   color: #333;
+}
+
+#thesisexhibit > h1 {
+  padding: 32px 0;
+  text-align: center;
 }
