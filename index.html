@@ -15,7 +15,7 @@
   </head>
   <body>
     <header id="mainheader">
-      <div id="logo-section">
+      <div id="logo-section" class="not-mobile">
         <a href="#">
           <div class="fleximg" id="logo">
             <img src="./resources/images/ic-logo.svg" alt="Colmar Academy logo" aria-label="Colmar Academy">
@@ -26,11 +26,17 @@
         </a>
       </div>
       <div id="action-section">
-        <ul class="flexlist">
+        <ul class="flexlist not-mobile">
           <li><a href="#">On Campus</a></li>
           <li><a href="#">Online</a></li>
           <li><a href="#">For Companies</a></li>
           <li><a href="#">Sign in</a></li>
+        </ul>
+        <ul class="mobile-flex">
+          <li><a href="#"><img src="resources/images/ic-logo.svg" alt="Colmar Academy"></a></li>
+          <li><a href="#"><img src="resources/images/ic-on-campus.svg" alt="On Campus"></a></li>
+          <li><a href="#"><img src="resources/images/ic-online.svg" alt="Online"></a></li>
+          <li><a href="#"><img src="resources/images/ic-login.svg" alt="Sign In"></a></li>
         </ul>
       </div>
     </header>
@@ -51,7 +57,7 @@
 
       <!-- Information section -->
       <div id="information">
-        <div class="info-col info-highlight">
+        <div class="info-col info-highlight not-mobile">
           <div class="fleximg">
             <img src="./resources/images/information-main.jpg" alt="Information">
           </div>

@@ -95,7 +95,7 @@ h3 {
   font-size: 1.5rem;
 }
 
-.mobile {
+.mobile, .mobile-flex {
   display: none;
 }
 
