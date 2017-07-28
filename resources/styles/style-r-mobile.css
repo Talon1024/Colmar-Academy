@@ -33,6 +33,10 @@
     justify-content: space-around;
   }
 
+  #mainheader #logo-section.not-mobile {
+    display: none; /* Mitigate old Chrome fix */
+  }
+
   /* ========== Jumbotron ========== */
   .jumbo-feature {
     display: block;
