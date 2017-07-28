@@ -73,7 +73,7 @@
             <div class="fleximg not-mobile">
               <img src="./resources/images/information-orientation.jpg" alt="Orientation">
             </div>
-            <div class="mobile">
+            <div class="fleximg mobile">
               <img src="./resources/images/information-orientation-mobile.jpg" alt="Orientation">
             </div>
             <div class="feature-content">
@@ -86,7 +86,7 @@
             <div class="fleximg not-mobile">
               <img src="./resources/images/information-campus.jpg" alt="Campus">
             </div>
-            <div class="mobile">
+            <div class="fleximg mobile">
               <img src="./resources/images/information-campus-mobile.jpg" alt="Campus">
             </div>
             <div class="feature-content">
@@ -99,7 +99,7 @@
             <div class="fleximg not-mobile">
               <img src="./resources/images/information-guest-lecture.jpg" alt="Guest Lecture">
             </div>
-            <div class="mobile">
+            <div class="fleximg mobile">
               <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="Guest Lecture">
             </div>
             <div class="feature-content">
@@ -116,63 +116,93 @@
         <h1>Start Learning</h1>
         <div class="courses">
           <div class="course">
-            <div class="fleximg">
-              <img src="./resources/images/course-software.jpg" alt="Software Engineering">
+            <div class="not-mobile">
+              <div class="fleximg">
+                <img src="./resources/images/course-software.jpg" alt="Software Engineering">
+              </div>
+              <div class="course-content">
+                <h3>Software Engineering</h3>
+                <p>COURSES</p>
+                <p>Web Development, Mobile Development, <abbr title="Internet of Things">IOT</abbr>, <abbr title="Application Programming Interfaces">APIs</abbr></p>
+              </div>
             </div>
-            <div class="course-content">
+            <div class="mobile">
               <h3>Software Engineering</h3>
-              <p>COURSES</p>
-              <p>Web Development, Mobile Development, <abbr title="Internet of Things">IOT</abbr>, <abbr title="Application Programming Interfaces">APIs</abbr></p>
             </div>
           </div>
           <div class="course">
-            <div class="fleximg">
-              <img src="./resources/images/course-computer-art.jpg" alt="Computer art">
+            <div class="not-mobile">
+              <div class="fleximg">
+                <img src="./resources/images/course-computer-art.jpg" alt="Computer art">
+              </div>
+              <div class="course-content">
+                <h3>Computer art</h3>
+                <p>COURSES</p>
+                <p>Imaging &amp; design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+              </div>
             </div>
-            <div class="course-content">
+            <div class="mobile">
               <h3>Computer art</h3>
-              <p>COURSES</p>
-              <p>Imaging &amp; design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
             </div>
           </div>
           <div class="course">
-            <div class="fleximg">
-              <img src="./resources/images/course-design.jpg" alt="Design">
+            <div class="not-mobile">
+              <div class="fleximg">
+                <img src="./resources/images/course-design.jpg" alt="Design">
+              </div>
+              <div class="course-content">
+                <h3>Design</h3>
+                <p>COURSES</p>
+                <p>User Experience Design, User Research, Visual Design</p>
+              </div>
             </div>
-            <div class="course-content">
+            <div class="mobile">
               <h3>Design</h3>
-              <p>COURSES</p>
-              <p>User Experience Design, User Research, Visual Design</p>
             </div>
           </div>
           <div class="course">
-            <div class="fleximg">
-              <img src="./resources/images/course-data.jpg" alt="Data">
+            <div class="not-mobile">
+              <div class="fleximg">
+                <img src="./resources/images/course-data.jpg" alt="Data">
+              </div>
+              <div class="course-content">
+                <h3>Data</h3>
+                <p>COURSES</p>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+              </div>
             </div>
-            <div class="course-content">
+            <div class="mobile">
               <h3>Data</h3>
-              <p>COURSES</p>
-              <p>Data Science, Big Data, SQL, Data Visualization</p>
             </div>
           </div>
           <div class="course">
-            <div class="fleximg">
-              <img src="./resources/images/course-business.jpg" alt="Business">
+            <div class="not-mobile">
+              <div class="fleximg">
+                <img src="./resources/images/course-business.jpg" alt="Business">
+              </div>
+              <div class="course-content">
+                <h3>Business</h3>
+                <p>COURSES</p>
+                <p>Product Development, Business Development, Startup</p>
+              </div>
             </div>
-            <div class="course-content">
+            <div class="mobile">
               <h3>Business</h3>
-              <p>COURSES</p>
-              <p>Product Development, Business Development, Startup</p>
             </div>
           </div>
           <div class="course">
-            <div class="fleximg">
-              <img src="./resources/images/course-marketing.jpg" alt="Marketing">
+            <div class="not-mobile">
+              <div class="fleximg">
+                <img src="./resources/images/course-marketing.jpg" alt="Marketing">
+              </div>
+              <div class="course-content">
+                <h3>Marketing</h3>
+                <p>COURSES</p>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+              </div>
             </div>
-            <div class="course-content">
+            <div class="mobile">
               <h3>Marketing</h3>
-              <p>COURSES</p>
-              <p>Analytics, Content Marketing, Mobile Marketing</p>
             </div>
           </div>
         </div>
@@ -181,7 +211,7 @@
       <!-- Thesis exhibit -->
       <div id="thesisexhibit">
         <h1>Thesis exhibit</h1>
-        <div class="flexlist">
+        <div class="flexlist not-mobile">
           <div class="info-col info-highlight">
             <div class="fleximg">
               <video src="./resources/videos/thesis.mp4" autoplay controls>
@@ -214,6 +244,11 @@
             </div>
           </div>
         </div>
+        <div class="mobile fleximg">
+          <video src="./resources/videos/thesis.mp4" autoplay controls>
+            Sorry, your browser is unable to play video.
+          </video>
+        </div>
       </div>
     </main>
     <!-- Footer and copyright -->
@@ -221,7 +256,7 @@
       <div class="copyright">
         &copy; 2016 Colmar Academy. All rights reserved.
       </div>
-      <div class="policies">
+      <div class="policies not-mobile">
         <ul class="flexlist">
           <li><a href="#">Terms</a></li>
           <li><a href="#">Privacy</a></li>
