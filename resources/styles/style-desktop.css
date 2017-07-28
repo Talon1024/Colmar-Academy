@@ -157,6 +157,12 @@ h3 {
   margin: 0 2rem;
 }
 
+@media only screen and (max-width: 870px) and (min-width: 761px) {
+  .jumbo-content {
+    padding-right: 0;
+  }
+}
+
 /* ========== Main section - information ========== */
 #information {
   display: flex;
