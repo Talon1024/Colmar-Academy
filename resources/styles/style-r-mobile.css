@@ -86,6 +86,13 @@
 
   /* ========== Footer/copyright ========== */
   #mainfooter {
+    display: block;
     font-size: .75rem;
+  }
+
+  /* ========== High-contrast mode ========== */
+
+  html.high-contrast #startlearning .course {
+    background-color: #fff;
   }
 }

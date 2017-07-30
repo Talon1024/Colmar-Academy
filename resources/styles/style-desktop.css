@@ -319,10 +319,47 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
+#mainfooter #setHighContrast {
+  padding-right: 16px;
+  cursor: pointer;
+  color: #419bea;
+}
+
 #mainfooter .copyright {
   flex-grow: 1;
 }
 
 .policies li {
   padding: 0 8px;
+}
+
+/* ========== High-contrast mode ========== */
+
+html.high-contrast #mainheader {
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+html.high-contrast .jumbotron {
+  background-image: none;
+  background-color: #000;
+}
+
+html.high-contrast .jumbo-content .button {
+  background-image: none;
+  background-color: #fff;
+  color: #000;
+}
+
+html.high-contrast .info-feature:hover {
+  background-color: #AAA;
+}
+
+html.high-contrast #startlearning {
+  background-image: none;
+  background-color: #000;
+}
+
+html.high-contrast .course-content h3 {
+  color: #000;
 }
